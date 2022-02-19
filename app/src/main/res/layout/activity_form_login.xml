@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormLogin">
+
+    <TextView
+        android:id="@+id/login_im"
+        android:layout_width="203dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/lg"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/login_Email"
+        style="@style/Text_1"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_im"/>
+
+    <EditText
+        android:id="@+id/login_Senha"
+        style="@style/Text_1"
+        android:layout_marginLeft="30sp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_Email"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_Button"
+        style="@style/bt_log"
+        android:text="@string/log"
+        android:textStyle="italic"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_Senha"/>
+
+    <TextView
+        android:id="@+id/login_for"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"
+        android:text="Forgot Password"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_Button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Privacy Policy"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_for" />
+
+    <TextView
+        android:layout_width="187dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="20dp"
+        android:text="Terms and Conditions"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_for" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

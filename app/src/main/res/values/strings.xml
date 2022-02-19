@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppCadastro</string>
+    <string name="Logar">Entrar</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="cadastrar">Cadastre-se aqui</string>
+    <string name="cd">Cadastrar</string>
+    <string name="log">Sign in</string>
+    <string name="criar">Criar Conta</string>
+    <string name="deslogar">Sign out</string>
+    <string name="nome">Elias Belchior Neto</string>
+    <string name="tt">HELLO</string>
+    <string name="info">Para mais informações entre em contato.
+        Tel: exemplo
+        E-mail: exemplo
+    </string>
+    <string name="cort1">Corte Simples_________________10,00</string>
+    <string name="cort2">Escova_______________________50,00</string>
+    <string name="cort3">Hidratação____________________20,00</string>
+    <string name="cort4">Corte Simples feminino________30,00</string>
+    <string name="unha1">Mão_________________________30,00</string>
+    <string name="unha2">Pé___________________________40,00</string>
+    <string name="unha3">Hidratação____________________20,00</string>
+    <string name="unha4">Esfoliação___________________200,00</string>
+</resources>

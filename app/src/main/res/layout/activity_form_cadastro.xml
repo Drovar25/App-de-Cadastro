@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormCadastro">
+
+
+    <TextView
+        android:id="@+id/cd_1"
+        android:layout_width="183dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/lg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tv"
+        android:background="@drawable/cont1"
+        android:padding="115sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cd_1"
+        />
+
+    <EditText
+        android:id="@+id/CDt1"
+        style="@style/Text_1"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tv"
+        app:layout_constraintEnd_toEndOf="@id/tv"
+        app:layout_constraintTop_toTopOf="@id/tv"
+        />
+    <EditText
+        android:id="@+id/CDt2"
+        style="@style/Text_1"
+        android:hint="Senha"
+        android:inputType="numberPassword"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tv"
+        app:layout_constraintEnd_toEndOf="@id/tv"
+        app:layout_constraintTop_toBottomOf="@id/CDt1"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cdbt"
+        android:text="@string/cd"
+        style="@style/bt_log"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tv"
+        app:layout_constraintEnd_toEndOf="@id/tv"
+        app:layout_constraintTop_toBottomOf="@id/CDt2"
+/>
+</androidx.constraintlayout.widget.ConstraintLayout>

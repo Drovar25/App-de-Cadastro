@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="338dp"
+        android:layout_height="337dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/lg"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_Log"
+        android:text="@string/Logar"
+        android:layout_marginTop="57dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        style="@style/bt_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_Log2"
+        style="@style/bt_log"
+        android:textStyle="italic"
+        android:text="@string/criar"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_Log"
+        />
+
+    <TextView
+        android:id="@+id/text_log"
+        android:text="or login with"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_Log2"/>
+
+    <TextView
+        android:id="@+id/insta"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/is"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_log" />
+
+    <TextView
+        android:id="@+id/gg"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/gg2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_log" />
+
+    <TextView
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/face"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_log" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormUser">
+
+    <TextView
+        android:id="@+id/user_Tv"
+        android:layout_width="575dp"
+        android:layout_height="261dp"
+        android:background="@drawable/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/user_Tv" />
+
+    <TextView
+        android:id="@+id/user_H"
+        android:layout_width="170dp"
+        android:layout_height="59dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/tt"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/user_Tv"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/user_Tv"
+        app:layout_constraintStart_toStartOf="@id/user_Tv"
+        app:layout_constraintTop_toTopOf="@id/user_Tv"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/user_Nome"
+        android:layout_width="175dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/nome"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_H" />
+
+    <EditText
+        style="@style/Text_1"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_Nome" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/cont4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_Tv" />
+
+    <TextView
+        android:background="@drawable/cont4"
+        android:layout_width="173dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_Tv" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/user_Deslogar"
+        style="@style/bt_log"
+        android:text="@string/deslogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_Tv" />
+
+    <TextView
+        android:text="@string/info"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_Deslogar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

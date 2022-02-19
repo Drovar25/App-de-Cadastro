@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054403684824",
+    "project_id": "appcadastro-4a742",
+    "storage_bucket": "appcadastro-4a742.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054403684824:android:a1eae3ce6365c964f36aad",
+        "android_client_info": {
+          "package_name": "me.dio.appcadastro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054403684824-bt608mmdg5o3tgl08amrm5p4r98qvbbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcRvQlfbE3GuJwcblFW3VEnPZ_m0lmgUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054403684824-bt608mmdg5o3tgl08amrm5p4r98qvbbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
